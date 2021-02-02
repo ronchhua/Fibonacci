@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Fib msg="Fibonacci Sequence"/>  <!-- Sends the message to the component, Fib.vue.-->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Fib from './components/Fib.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Fib
   }
+
 }
 </script>
 
@@ -25,4 +25,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>

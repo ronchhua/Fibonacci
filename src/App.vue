@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <Fib msg="Fibonacci Sequence"/>  <!-- Sends the message to the component, Fib.vue.-->
+    <FibDisplay msg="Fibonacci Sequence"/>  <!-- Sends the message to the component, Fib.vue.-->
   </div>
 </template>
 
 <script>
-import Fib from './components/Fib.vue'
+import FibDisplay from './components/FibDisplay.vue'
 
 export default {
   name: 'App',
   components: {
-    Fib
+    FibDisplay
   }
 
 }
